@@ -40,7 +40,7 @@ class Model():
             match(sensor_id, 'SOC_[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]_CLIMAT_MODE') > 0 OR
             match(sensor_id, 'SOC_[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]_CLIMAT_SUBMODE[1, 2]') > 0 OR
             match(sensor_id, 'car_[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]_BCU_out_Reference_Speed') > 0)
-            ORDER BY {dt}
+            ORDER BY {dt} limit 100
         """
         return query
   

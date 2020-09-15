@@ -1,0 +1,18 @@
+{
+  "model_cs": {
+    "query_columns": {
+      "dt": "dt",
+      "upload_id": "upload_id",
+      "stock_num": "stock_num",
+      "value_float": "value_float",
+      "value_str": "value_str",
+      "sensor_id": "sensor_id"
+    },
+    "query_values": {
+      "stock_num_val": "",
+      "datetime_start_val": "",
+      "datetime_end_val": "",
+      "upload_id_val": ""
+    }
+  }
+}
